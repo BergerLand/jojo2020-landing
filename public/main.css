@@ -18,14 +18,14 @@ header {
 }
 
 .banner img {
-  height: 9rem;
-  width: 500px;
+  height: 7rem;
+  width: 400px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 768px) {
   .banner img {
-    height: 7rem;
-    width: 400px;
+    height: 9rem;
+    width: 500px;
   }
 }
 
@@ -45,8 +45,16 @@ h1.slogan {
 }
 
 main {
-  margin-top: 160px;
+  margin-top: 178px;
   background: white;
+}
+
+.hero {
+  max-width: 100%;
+  width: 100%;
+}
+
+.content {
   padding: 2rem;
 }
 
