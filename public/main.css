@@ -1,21 +1,42 @@
 body {
-  display: grid;
-  height: 100vh;
-  grid-template-rows: auto 1fr auto;
+  margin: 0;
+  padding: 0;
   font-family: system-ui, sans-serif;
 }
 
 header {
-  background: lightpink;
+  background: #e41e26;
   padding: 2rem;
+  height: 12.5rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.banner img {
+  height: 200px;
+  width: 500px;
 }
 
 main {
-  background: coral;
+  margin-top: 230px;
+  background: #00b2d9;
+  padding: 2rem;
 }
 
 footer {
-  background: wheat;
+  background: #e41e26;
   padding: 2rem;
   text-align: center;
+  color: white;
+}
+
+.grid {
+  display: grid;
+  grid-template-rows: 5fr 1fr;
+  height: 100vh;
+}
+
+.flex {
+  display: inline-flex;
 }
