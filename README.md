@@ -1,4 +1,5 @@
 # jojo2020-landing
+
 Jo Jorgensen 2020 Election Landing Site
 
 ### Static Header
@@ -29,3 +30,8 @@ Volunteer | TBD | Volunteer in PA | https://jo20.com/volunteer/
 Volunteer | [PA Keystone Icon](https://www.facebook.com/Keystone4JoJo/photos/a.104257921309109/126425769092324/) | Join Jo's PA Volunteers on Facebook| https://www.facebook.com/groups/PennsylvaniaForJorgensen/
 Contribute | TBD | Donate to reach PA | https://secure.anedot.com/jo-jorgensen-for-president/pennsylvania
 Contribute | TBD | Get Jo Keystone Swag! | http://pajo20tshirtfundraiser.square.site
+
+## Development Server
+
+Make sure you have npm installed and then you can type `npm run serve`
+to serve the website locally for testing and debugging purposes.

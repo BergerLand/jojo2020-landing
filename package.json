@@ -1,0 +1,27 @@
+{
+  "name": "jojo2020-landing",
+  "version": "1.0.0",
+  "description": "Landing page for JoJo2020 campaign",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "npx http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BergerLand/jojo2020-landing.git"
+  },
+  "author": "Phillip R. Berger",
+  "license": "NONE",
+  "bugs": {
+    "url": "https://github.com/BergerLand/jojo2020-landing/issues"
+  },
+  "homepage": "https://github.com/BergerLand/jojo2020-landing#readme",
+  "dependencies": {
+    "install": "^0.13.0",
+    "npm": "^6.14.8"
+  },
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  }
+}
