@@ -12,12 +12,12 @@ Jo Jorgensen 2020 Election Landing Site
   * For desktop/tablet, would like this to appear under the header
   * Should scroll with the page, not be fixed like the header
   
-### Links Elements
-  * initial list below
+### Link Elements
+  * Initial list below
   * Each element consists of a graphic image, short descriptive text, and a link
   * The image should be clickable, and take people to the link
   * I've grouped them by category - ideally, each category would have it's own header
-  
+
 **List of Link Elements**
 
 Category | Image | Text | Link
