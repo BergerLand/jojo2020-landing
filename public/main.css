@@ -54,8 +54,22 @@ main {
   width: 100%;
 }
 
-.content {
+.links {
+  display: flex;
+  justify-content: space-around;
   padding: 2rem;
+}
+
+.fab {
+  color: white;
+  border-radius: 200px 200px 200px 200px;
+  background: #00b2d9;
+  border: 2px solid #e41e26;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 footer {
