@@ -18,7 +18,7 @@ Jo Jorgensen 2020 Election Landing Site
   * The image should be clickable, and take people to the link
   * I've grouped them by category - ideally, each category would have it's own header
   
-** List of Link Elements **
+**List of Link Elements**
 
 Category | Image | Text | Link
 ------------ | ------------ | ------------- | -------------
