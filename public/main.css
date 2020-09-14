@@ -1,42 +1,65 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: system-ui, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 header {
-  background: #e41e26;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(90deg, rgba(255, 255, 255, 1) 50%, rgba(0, 178, 217, 1) 100%);
   padding: 2rem;
-  height: 12.5rem;
+  height: 7rem;
   width: 100%;
   position: fixed;
   top: 0;
+  border-bottom: 2px solid #e41e26;
+  display: inline-flex;
+  align-items: center;
 }
 
 .banner img {
-  height: 200px;
+  height: 9rem;
   width: 500px;
 }
 
+@media only screen and (max-width: 600px) {
+  .banner img {
+    height: 7rem;
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  h1.slogan {
+    display: none;
+  }
+}
+
+h1.slogan {
+  font-family: 'journalregular';
+  font-size: 4rem;
+  margin-left: 2rem;
+  padding: 0;
+  font-weight: 500;
+  color: #e41e26;
+}
+
 main {
-  margin-top: 230px;
-  background: #00b2d9;
+  margin-top: 160px;
+  background: white;
   padding: 2rem;
 }
 
 footer {
-  background: #e41e26;
+  background: #00b2d9;
   padding: 2rem;
   text-align: center;
   color: white;
+  border-top: 2px solid #e41e26;
 }
 
 .grid {
   display: grid;
   grid-template-rows: 5fr 1fr;
   height: 100vh;
-}
-
-.flex {
-  display: inline-flex;
 }
