@@ -4,6 +4,10 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lora', serif;
+}
+
 header {
   background: rgb(255, 255, 255);
   background: linear-gradient(90deg, rgba(255, 255, 255, 1) 50%, rgba(0, 178, 217, 1) 100%);
@@ -55,9 +59,26 @@ main {
 }
 
 .links {
-  display: flex;
-  justify-content: space-around;
   padding: 2rem;
+  text-align: center;
+}
+
+.links > div {
+  margin-bottom: 4rem;
+}
+
+a.link {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.link-text {
+  margin-top: 1rem;
+  width: 100px;
+
 }
 
 .fab {
@@ -70,6 +91,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 footer {
@@ -84,4 +106,9 @@ footer {
   display: grid;
   grid-template-rows: 5fr 1fr;
   height: 100vh;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-evenly;
 }
