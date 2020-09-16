@@ -99,6 +99,14 @@ a.link {
   cursor: pointer;
 }
 
+.fab.white {
+  background: white;
+}
+
+.fab > img {
+  width: 60px;
+}
+
 footer {
   background: #00b2d9;
   padding: 2rem;
